@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <fieldset>
+              <legend>Login to Continue</legend>
+              <div class="mb-3">
+                <label class="form-label" for="u_name">Username</label>
+                <input class="form-control" type="text" id="u_name" required />
+              </div>
+              <div class="mb-3">
+                <label for="u_comment" class="fomr-label">Comment</label>
+                <textarea
+                  id="u_comment"
+                  class="form-control"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label" for="u_text">User Texts</label>
+                <input
+                  class="form-control form-control-lg"
+                  type="text"
+                  id="u_text"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label" for="u_text1">User Texts 1</label>
+                <input
+                  class="form-control form-control-sm"
+                  type="text"
+                  id="u_text1"
+                />
+              </div>
+
+                 <div class="mb-3">
+                <label class="form-label" for="u_email">User email</label>
+                <input
+                  class="form-control form-control-sm"
+                  type="text"
+                  id="u_email" disabled value="John@gmail.com" 
+                />
+              </div>
+              
+              <div class="mb-3">
+                <label class="form-label" for="u_file">File</label>
+                <input
+                  class="form-control form-control"
+                  type="file"
+                  id="u_file" 
+                />
+              </div>
+
+               <div class="mb-3">
+                <label class="form-label" for="u_file">File</label>
+                <input
+                  class="form-control form-control"
+                  type="file"
+                  id="u_file" disabled 
+                />
+
+              </div>
+
+               <div class="mb-3">
+                <label class="form-label" for="u_color">User color</label>
+                <input
+                  class="form-control form-control-color"
+                  type="color"
+                  id="u_color" 
+                />
+              </div>
+
+              
+              
+              <button class="btn btn-success" type="submit">Login</button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
