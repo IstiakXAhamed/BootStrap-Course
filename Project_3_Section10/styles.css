@@ -1,0 +1,18 @@
+.navbar img{
+    width:150px;
+}
+.home-header-img-holder img,
+.home-content-image img{
+    width: 100%;
+    height: auto;
+}
+
+.feature-item img{
+    width:50px;
+    height: auto;
+}
+
+.subscribe{
+    background: url(./img/subscribe.jpg) no-repeat center center/cover;
+   
+}
